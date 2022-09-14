@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Invoice Form</title>
+        <style>
+            input[type=radio] {
+                accent-color:blue ;
+            }
+            table {
+                border: 1px solid black;
+                padding-top: 30px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                
+            }
+            th, td {
+                border: 1px solid black;
+                border-style: dotted;
+            }
+            textarea {
+                resize: none;
+            }
+            legend {
+                font-size:20px;
+            }
+    
+
+        </style>
+    </head>
+    
+    
+<body>
+        <div id="main" class="page-wrapper">
+    <fieldset style="width:0px; background-color: whitesmoke;">
+    <Legend>Invoice Details</Legend>
+    <form action="#">
+            <Section>
+
+                    <div>
+                        
+                        <label>Invoice to:</label>&nbsp;<input type="text" name="full_name" maxlength="30" style=width:10cm; placeholder="Enter Full Name" required> <br>
+                        <label>Contact #:</label>&nbsp;<input type="tel" name="contact_number" maxlength="15" style=width:5cm; placeholder="Enter Contact Number" required>
+                        <label>Date:</label> <input type="date" name="date" value="date" required>
+                    </div>
+                
+            </Section> <br>
+
+        <thead>
+ 
+        <table style="border: 1px solid black;height: 300px;width: 700px;">
+            <tr style="background-color: bisque; width: 100px;">
+                <th style="width:48%;">Item Description</th>
+                <th style="width:10%;">Qty</th>
+                <th style="width:25%;">Unit Price</th>
+                <th style="width:22%;">Amount</th>
+            </thead>
+            </tr>
+                <tbody>  
+            <tr>
+                <td style=font-family:arial;><textarea id="item1" name="item1" rows="2" cols="40"></textarea></td>
+                <td style="text-align: center;"><input type="number" name="quantity1" min="1" style="width:45px;"></td>
+                <td style="text-align: center;">&#8369<input type="number" name="unit_price1" min="1" style="width:80px;"></td>
+                <td style="text-align: right;">&#8369<input type="number" name="amount1" min="1" style="width:80px;"></td>
+            </tr>
+            <tr>
+                <td style="font-family:arial"><textarea id="item2" name="item2" rows="2" cols="40"></textarea></td>
+                <td style="text-align: center;"><input type="number" name="quantity2" min="1" style="width:45px;"></td>
+                <td style="text-align: center;">&#8369<input type="number" name="unit_price2" min="1" style="width:80px;"></td>
+                <td style="text-align: right;">&#8369<input type="number" name="amount2" min="1" style="width:80px;"></td>
+            </tr>
+            <tr>
+                <td style=font-family:arial;><textarea id="item3" name="item3" rows="2" cols="40"></textarea></td>
+                <td style="text-align: center;"><input type="number" name="quantity3" min="1" style="width:45px;"></td>
+                <td style="text-align: center;">&#8369<input type="number" name="unit_price3" min="1" style="width:80px;"></td>
+                <td style="text-align: right;">&#8369<input type="number" name="amount3" min="1" style="width:80px;"></td>
+            </tr>
+            <tr>
+                <td style="font-family:arial;"><textarea id="item4" name="item4" rows="2" cols="40"></textarea></td>
+                <td style="text-align: center;"><input type="number" name="quantity4" min="1" style="width:45px;"></td>
+                <td style="text-align: center;">&#8369<input type="number" name="unit_price4" min="1" style="width:80px;"></td>
+                <td style="text-align: right;">&#8369<input type="number" name="amount4" min="1" style="width:80px;"></td>
+            </tr>
+            <tr style="text-align: right;">
+                <td colspan="3">Sub Total:</td>
+                <td style="text-align: right;">&#8369</td>
+            </tr>
+            <tr style="text-align: right;">
+                <td style="font-style:oblique;" colspan="3">VAT (12&#37;)</td>
+               <td style="text-align: right; font-style: oblique;">(&#8369)</td>
+            </tr>
+            <tr style="text-align: right;">
+                <td style="font-weight: bold;" colspan="3">Total:</td>
+                <td style="text-align: right;font-weight: bold;">&#8369</td>
+            </tr>
+    </tbody>
+    </table>
+        <fieldset>
+            <legend>Additional Details:</legend>
+            <label for="payment_method">Payment Method:</label>
+                <select name="payment_method" id="payment_method" required>
+                    <option value="">-- Select Payment Method --</option>
+                    <option value="atm_card">Debit/Credit Card</option>
+                    <option value="paypal">Paypal</option>
+                    <option value="paymaya">Paymaya</option>
+                    <option value="cod">Cash on delivery</option>
+                </select> <br>
+            <input type="radio" id="Home" name="radio_option" value="1" required> 
+            <label for="Home">Home</label>
+            <input type="radio" id="Work" name="radio_option" value="2" required> 
+            <label for="Work">Work</label> <br>
+            <textarea name="address" style="width:500px;" maxlength="500" placeholder="Enter Full address details" required></textarea>
+            
+            <div style="width:17.7cm;">
+                <input style="float:right;font-size:20px;" type="submit" value="Submit">
+            </div>
+        </fieldset>
+    </form>
+</div>
+</fieldset>
+</body>
+</html>
