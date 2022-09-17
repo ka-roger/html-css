@@ -41,12 +41,35 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+section.about-me {
+    /*margin: 10px;*/
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 .about-me p {
     font-size: 21px;
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-section.about-me {
-    margin: 10px;
+section.my-portfolio div {
+
+    height: 100px;
+}
+
+.d-inline{
+    flex: 1 0 21%;
+    margin: 5px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid gold;
+    border-style: dotted;
+    border-radius: 10%;
+
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+
 }
