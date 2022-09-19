@@ -1,0 +1,75 @@
+body {
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page-wrapper {
+    max-width: 1024px;
+    background-color: antiquewhite;
+    margin: 0px auto 0px auto;
+    padding: 30px 15px 30px 15px;
+
+}
+
+header {
+height: 50px;
+width: 100%;
+background-color:whitesmoke;
+color: brown;
+text-align: center;
+font-size: 45px;
+}
+
+.banner {
+    height: 150px;
+    background-image: url('../image/Background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.about-me {
+    /*margin: 10px;*/
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.about-me p {
+    font-size: 21px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.my-portfolio div {
+
+    height: 100px;
+}
+
+.d-inline{
+    flex: 1 0 21%;
+    margin: 5px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid gold;
+    border-style: dotted;
+    border-radius: 10%;
+
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
