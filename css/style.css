@@ -62,6 +62,16 @@ section.my-portfolio div.d-flex {
     padding: 15px;
 }
 
+.d-flex>.d-inline{
+    display: inline;
+    width: 180px;
+    padding: 15px;
+    margin: 15px;
+    color: black;
+    background-color: white;
+    box-shadow: -5px 5px;
+}
+
 /*exercise 5*/
 #grid-layout h2{
     color:black;
@@ -167,3 +177,5 @@ section.my-portfolio div.d-flex {
     grid-area: 2 / 4 / 5 / 6;
     background-color: greenyellow;
 }
+
+
