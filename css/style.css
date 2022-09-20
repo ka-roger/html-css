@@ -53,24 +53,21 @@ section.about-me {
 }
 
 
-section.my-portfolio div {
-
-    height: 100px;
-}
-
-.d-inline{
-    flex: 1 0 21%;
-    margin: 5px;
-    height: 100px;
-    background-color: lightblue;
-    border: 1px solid gold;
-    border-style: dotted;
-    border-radius: 10%;
-
-}
-
-.d-flex {
+section.my-portfolio div.d-flex {
     display: flex;
     flex-wrap: wrap;
+    justify-content:center;
+    background-color: lightsalmon;
+    border: 1px dashed black;
+    padding: 15px;
+}
 
+.d-flex>.d-inline{
+    display: inline;
+    width: 180px;
+    padding: 15px;
+    margin: 15px;
+    color: black;
+    background-color: white;
+    box-shadow: -5px 5px;
 }
