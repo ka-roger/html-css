@@ -51,27 +51,15 @@ section.about-me {
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/*Flex Box for my portfolio*/
-section.my-portfolio div {
 
-    height: 100px;
-}
 
-.d-inline{
-    flex: 1 0 20%;
-    margin: 5px;
-    background-color: lightblue;
-    border: 1px solid gold;
-    border-style: dotted;
-    border-radius: 10%;
-    box-shadow: -5px 5px grey;
-
-}
-
-.d-flex {
+section.my-portfolio div.d-flex {
     display: flex;
     flex-wrap: wrap;
-
+    justify-content:center;
+    background-color: lightsalmon;
+    border: 1px dashed black;
+    padding: 15px;
 }
 
 /*exercise 5*/
