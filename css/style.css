@@ -3,10 +3,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .page-wrapper {
-    max-width: 1024px;
+
     background-color: antiquewhite;
     margin: 0px auto 0px auto;
-    padding: 30px 15px 30px 15px;
 
 }
 
@@ -20,38 +19,46 @@ top: 0px;
 }
 
 .banner {
-    height: 150px;
+    margin-top: 40px;
+    height: 400px;
     background-image: url('../image/Background.jpg');
     background-size: cover;
     background-position: center;
 }
 
+.p-3>img {
+    border: 1px solid black;
+    box-shadow: -3px -3px rgb(83, 92, 100);
+}
+
+
 h1 {
     color: brown;
-    text-align: center;
+    text-align: left;
     padding-top: 10px;
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 h2 {
     color: brown;
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.image {
-    margin-top: 10px;
-    text-align: center;
+section.about-me {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-section.about-me {
-    /*margin: 10px;*/
-    margin-top: 80px;
-    margin-bottom: 80px;
+.about-me h3 {
+    margin: 10px;
 }
+
 .about-me p {
+    margin: 10px;
     font-size: 21px;
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -66,6 +73,11 @@ section.my-portfolio div.d-flex {
     border: 1px dashed black;
     padding: 15px;
 }
+
+section.my-portfolio {
+    background-color: lightsalmon;
+}
+
 
 .d-flex>.d-inline{
     display: inline;
@@ -182,7 +194,7 @@ section.my-portfolio div.d-flex {
     grid-area: 2 / 4 / 5 / 6;
     background-color: greenyellow;
 }
-
+/*NAV BAR*/
 nav ul {
     list-style: none;
     margin: 0;
@@ -218,25 +230,6 @@ nav ul li {
 .banner {
 
 margin-top: 260px;
-}
-    nav ul li {
-        display: block;
-
-    }
-}
-
-@media screen and (max-width:992px){
-    header{
-        height: auto;
-        background-origin: lightskyblue;
-        position: absolute;
-    }
-
-.banner {
-
-margin-top: 260px;
-height: 200px;
-
 }
     nav ul li {
         display: block;

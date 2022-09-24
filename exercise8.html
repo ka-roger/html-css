@@ -241,24 +241,130 @@
         </table>
     </div>
 
-        <img src="D:\Desktop\KODEGO\Assignment\image\BeFunky-Collage-5-3.png" class="rounded" width="300" height="auto">
-        <img src="D:\Desktop\KODEGO\Assignment\image\Group-Teaser-Image-black-pink-39729878-500-334.jpg" class="rounded-circle" width="300" height="auto">
-        <img src="D:\Desktop\KODEGO\Assignment\image\Group-Teaser-Image-black-pink-39729881-500-334.jpg" class="img-thumbnail" width="300" height="auto">
+        <img src="D:\Desktop\KODEGO\Assignment\html-css\image\BeFunky-Collage-5-3.png" class="rounded" width="300" height="auto">
+        <img src="D:\Desktop\KODEGO\Assignment\html-css\image\Group-Teaser-Image-black-pink-39729878-500-334.jpg" class="rounded-circle" width="300" height="auto">
+        <img src="D:\Desktop\KODEGO\Assignment\html-css\image\Group-Teaser-Image-black-pink-39729881-500-334.jpg" class="img-thumbnail" width="300" height="auto">
     
     <div style="height: 200px; width:200px;overflow:hidden;" class="rounded-circle">
 
-        <img src="D:\Desktop\KODEGO\Assignment\image\Group-Teaser-Image-black-pink-39729878-500-334.jpg" width="300" height="auto">
+        <img src="D:\Desktop\KODEGO\Assignment\html-css\image\Group-Teaser-Image-black-pink-39729878-500-334.jpg" width="300" height="auto">
         <h5>La Lisa Manoban</h5>
     </div>
 
     <div>
-        <img src="D:\Desktop\KODEGO\Assignment\image\Group-Teaser-Image-black-pink-39729878-500-334.jpg"  class="float-start" width="300" height="auto">
+        <img src="D:\Desktop\KODEGO\Assignment\html-css\image\Group-Teaser-Image-black-pink-39729878-500-334.jpg"  class="float-start" width="300" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique.</p>
-        <img src="D:\Desktop\KODEGO\Assignment\image\Group-Teaser-Image-black-pink-39729878-500-334.jpg"  class="float-end" width="300" height="auto">
+        <img src="D:\Desktop\KODEGO\Assignment\html-css\image\Group-Teaser-Image-black-pink-39729878-500-334.jpg"  class="float-end" width="300" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique.</p>
     </div>
+   
+    <div class="container">
+        <form class="border 3 p-3 my-5 rounded">
+            <div class="row">
+                <div class="my-3 col">
+                    <label class="form-label">First Name:</label>
+                    <input class="form-control" type="text" name="first_name"/> 
+                </div>
+                <div class="my-3 col">
+                    <label class="form-label">Last Name:</label>
+                    <input class="form-control" type="text" name="last_name"/> 
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="my-3 col">
+                    <label class="form-label">Email:</label>
+                    <input class="form-control" type="email" name="email"/> 
+                </div>
+                <div class="my-3 col">
+                    <label class="form-label">Contact #:</label>
+                    <input class="form-control" type="number" name="contact_number"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="my-3 col">
+                    <label class="form-label">Address:</label>
+                    <textarea class="form-control" type="address" name="address" placeholder="Input Address"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="my-3 col">
+                    <input class="form-control" type="file" name="file"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="my-3 col">
+                    <label class="form-label">Payment Method:</label>
+                    <select class="form-select" name="payment_method">
+                        <option value="">--Select Payment Method--</option>
+                        <option>GCASH</option>
+                        <option>Credit/Debit Card</option>
+                        <option>Cash on Delivery</option>
+                    </select>
+                </div>
+                <div class="my-3 col">
+                    <label class="form-label">Amount:</label>
+                    <input class="form-control" type="number" name="amount"/>
+                </div>
+                <div class="my-3 col">
+                    <label class="form-label">VAT:</label>
+                    <input class="form-control" type="number" name="var"/>
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class="my-3 col">
+                    <input id="curr_usd" class="form-check-input" type="radio" name="currency"/>
+                    <label for="curr_usd" class="form-label me-3">USD</label>
+                    <input id="curr_php" class="form-check-input" type="radio" name="currency"/>
+                    <label for="curr_php" class="form-label me-3">PHP</label>
+                    <input id="curr_aud" class="form-check-input" type="radio" name="currency"/>
+                    <label for="curr_aud" class="form-label me-3">AUD</label>
+                </div>
+            </div>
+           
+            <h4>Add-Ons</h4>
+            <div class="row">
+                <div class="my-3 col">
+                    <input id="gift_card" class="form-check-input" type="checkbox" name="gift_card"/>
+                    <label for="gift_card" class="form-label me-3">With Giftcard</label>
+                    <input id="discount" class="form-check-input" type="checkbox" name="discount"/>
+                    <label for="discount" class="form-label me-3">With 10% Discount</label>
+                    <input id="ecobag" class="form-check-input" type="checkbox" name="ecobag"/>
+                    <label for="ecobag" class="form-label me-3">In Ecobag</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="my-3 col">
+                    <label class="form-label">Delivery Date:</label>
+                    <input class="form-control" type="date" name="delivery_date"/>
+                </div>
+                <div class="my-3 col">
+                    <label class="form-label"></label>
+                    <input class="form-control" type="image" src="D:\Desktop\KODEGO\Assignment\html-css\image\ka_roger.png" name="image"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="my-3 col">
+                    <label class="form-label">Range:</label>
+                    <input class="form-range" type="range" name="range" step="1" min="0" max="10"/>
+                    <input type="range" name="range" step="1" min="0" max="10"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="my-3 col">
+                    <button class="btn btn-primary">Submit</button>
+                    <button class="btn btn-secondary">Submit</button>
+                    <button class="btn btn-success">Submit</button>
+                    <button class="btn btn-warning">Warning</button>
+                    <button class="btn btn-danger">Delete</button>
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
