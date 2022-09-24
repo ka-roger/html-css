@@ -13,10 +13,10 @@ body {
 header {
 height: 50px;
 width: 100%;
-background-color:whitesmoke;
-color: brown;
-text-align: center;
-font-size: 45px;
+background-color:lightskyblue;
+position: fixed;
+left: 0px;
+top: 0px;
 }
 
 .banner {
@@ -39,6 +39,11 @@ h2 {
     text-align: center;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image {
+    margin-top: 10px;
+    text-align: center;
 }
 
 section.about-me {
@@ -176,4 +181,65 @@ section.my-portfolio div.d-flex {
 .grid-area .item9 {
     grid-area: 2 / 4 / 5 / 6;
     background-color: greenyellow;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    line-height: 50px;
+    color: brown;
+    font-weight: 700;
+
+    
+}
+
+nav ul li:hover {
+    background-color: lightsalmon;
+
+}
+
+nav ul li {
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+@media screen and (max-width:992px){
+    header{
+        height: auto;
+        background-origin: lightskyblue;
+        position: absolute;
+    }
+
+.banner {
+
+margin-top: 260px;
+}
+    nav ul li {
+        display: block;
+
+    }
+}
+
+@media screen and (max-width:992px){
+    header{
+        height: auto;
+        background-origin: lightskyblue;
+        position: absolute;
+    }
+
+.banner {
+
+margin-top: 260px;
+height: 200px;
+
+}
+    nav ul li {
+        display: block;
+
+    }
 }
