@@ -1,0 +1,99 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box ; 
+}
+
+.navbar {
+
+}
+
+body {
+    background-image: linear-gradient( rgb(248, 122, 18), rgb(241, 245, 35));
+}
+
+h1 {
+    color: black;
+    text-shadow: 1px 1px grey;
+    font-weight: bold;
+    font-family: 'Play', sans-serif;
+    font-size: 50px;
+
+}
+
+#akayph {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 65px;
+    font-family: 'Play', sans-serif;
+}
+
+#name {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+}
+
+.post {
+    font-family: 'Play', sans-serif;
+    font-size: 15px;
+}
+
+p {
+    font-family: 'Play', sans-serif;
+}
+
+#Banner {
+    padding: 0 !important;
+}
+
+.border {
+    border: 3px solid black !important;
+
+}
+
+#talent-carousel {
+    padding: 0 !important;
+}
+
+#talent {
+    height: 350px;
+}
+
+#akayph-owners-height {
+    height: 400px;
+}
+
+#back-to-top {
+    text-decoration: none !important;
+    color: whitesmoke;
+}
+
+#footer-contact {
+    text-decoration: none !important;
+    color: whitesmoke;
+}
+
+#banner-akayph {
+    background-color:rgba(0, 0, 0, 0.622) !important;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+footer {
+    background-color:rgb(28, 27, 27) !important;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+#name {
+    text-decoration: none !important;
+    color: black !important;
+
+}
+
+#fb-logo-founding {
+    height: 30px;
+    width: 30px;
+    padding: 2px !important;
+}
